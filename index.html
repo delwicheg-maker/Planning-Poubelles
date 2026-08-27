@@ -5,9 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Planning des ramassages — A.C.P. Louis Schmidt 80</title>
 
+<!-- Balises Open Graph : aperçu de partage (WhatsApp, iMessage, Facebook, LinkedIn...)
+     N'affecte QUE l'aperçu du lien avant clic — aucun impact sur le contenu de la page elle-même. -->
+<meta property="og:title" content="Planning des ramassages">
+<meta property="og:description" content="Consultez les jours de collecte en un coup d'œil — A.C.P. Louis Schmidt 80">
+<meta property="og:image" content="https://delwicheg-maker.github.io/Planning-Poubelles/og-image.jpg">
+<meta property="og:url" content="https://delwicheg-maker.github.io/Planning-Poubelles/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
 <!--
   Logbook Digital — Planning des ramassages A.C.P. Louis Schmidt 80
-  Page HTML autonome (aucun backend requis) — v3.0 — 27/08/2026
+  Page HTML autonome (aucun backend requis) — v3.1 — 27/08/2026
   STATUT : VERSION FINALE (issue du prototype validé v2.14)
 
   ==================================================================
@@ -55,6 +64,14 @@
           HTML/CSS. Confirmation des jours portugais (Segunda-feira =
           "2e jour" car Dimanche = 1er jour en portugais — comportement
           normal, non corrigé).
+   v3.1 (27/08/2026) — ajout des balises Open Graph dans le <head>
+          (og:title, og:description, og:image, og:url, twitter:card)
+          pour un aperçu enrichi lors du partage du lien sur WhatsApp,
+          iMessage, Facebook, LinkedIn, etc. Nécessite le fichier
+          og-image.jpg (1200x630px) hébergé à la racine du même dépôt
+          GitHub Pages. Aucun impact sur le contenu de la page elle-même
+          — ces balises ne sont lues que par les apps de messagerie
+          avant l'ouverture du lien, jamais affichées sur la page.
 -->
 
 <style>
